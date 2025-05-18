@@ -8,15 +8,15 @@ import appStoreLogo from "./images/app-stote-download.png"
 
 // Replace with your Firebase config and VAPID key
  const firebaseConfig = {
-   apiKey: "AIzaSyC5yLgEebmBeEXCqe6KoAWfU11grNYAU1g",
+   apiKey: "",
    authDomain: "notification-service-a08cb.firebaseapp.com",
    projectId: "notification-service-a08cb",
    storageBucket: "notification-service-a08cb.firebasestorage.app",
-   messagingSenderId: "747855558903",
-   appId: "1:747855558903:web:81ea5fcb447b538f047bf2"
+   messagingSenderId: "",
+   appId: ""
 }
 // --- Replace with your VAPID key from Firebase Cloud Messaging ---
- const VAPID_KEY = "BFaKFmFb0bHSp82JlYCeqJU6F2L9yVUHfFPYvIa9zYshvNP_aqSHpC-fBG4scVBe3DZnY_mrzFiLIcAKFx-jXG8"
+ const VAPID_KEY = "Enter your key"
 
 const firebaseApp = initializeApp(firebaseConfig)
 const messaging = getMessaging(firebaseApp)

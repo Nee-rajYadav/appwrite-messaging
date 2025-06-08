@@ -9,9 +9,9 @@ import appStoreLogo from "./images/app-stote-download.png"
 // Replace with your Firebase config and VAPID key
  const firebaseConfig = {
    apiKey: "",
-   authDomain: "notification-service-a08cb.firebaseapp.com",
+   authDomain: "notification-seaseapp.com",
    projectId: "notification-service-a08cb",
-   storageBucket: "notification-service-a08cb.firebasestorage.app",
+   storageBucket: "notcb.firebasestorage.app",
    messagingSenderId: "",
    appId: ""
 }
